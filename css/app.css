@@ -44,8 +44,42 @@ body{
     font-size: 3.3rem;
 }
 
-@media (max-width: 1170px) {
+@media (max-width: 1200px) {
     #heading-group h1{
         font-size: 2.7rem;
     }
+}
+@media (max-width: 1124px) {
+    #lolli{
+        width: 100px;
+        height: 100px;
+    }
+    .blurb p{
+        font-size: 1rem;
+    }
+    .blurb h2{
+        font-size: 2rem;
+    }
+    .blurb p{
+        font-size: 1rem;
+    }
+    
+}
+
+
+
+@media (max-width: 827px) {
+    .blurb h2{
+        font-size: 1.5rem;
+    }
+    
+}
+.content{
+    margin-bottom: 100px;
+    
+}
+
+.navbar.scrolled{
+    background-color: #dec0de;
+    transition: background 500ms;
 }
